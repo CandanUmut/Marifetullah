@@ -1,0 +1,33 @@
+name: marifa_app
+description: A Flutter app teaching and tracking ma'rifatullah through the 99 Names of Allah and research insights.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependency_overrides: {}
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/names_en.json
+    - assets/names_tr.json
+    - assets/research_en.json
+    - assets/research_tr.json
+    - assets/resources.json
